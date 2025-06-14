@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rosé & Roast</title>
+  <!-- Favicon -->
+  <link rel="icon" href="./Image/logo.png" />
+  <!-- Fontawesome Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Font Import from Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@400;700&display=swap"
+    rel="stylesheet">
+  <!-- Glightbox CSS CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.css"
+    integrity="sha512-iQ3H4A+iyBTP8M4ypX5PrTt2S+G1zmRjf0k0uOASKlFHysV8TL9ZoQyVwPss0D12IBTMoDEHA8+bg8a1viS9Mg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Bootstrap CSS CDN Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- Mian CSS Link -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- NavBar Start -->
+  <nav id="navBar" class="navbar navbar-expand-lg sticky-lg-top">
+    <div class="container-fluid">
+      <img class="rlogo" src="./Image/logo.png" alt="R&R_logo" />
+      <a class="navbar-brand fs-5" href="#">Rosé & Roast</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item me-xl-3 me-lg-1">
+            <a class="nav-link fs-5 active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item me-xl-3 me-lg-1">
+            <a class="nav-link fs-5" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item me-xl-3 me-lg-1">
+            <a class="nav-link fs-5" href="#about">About</a>
+          </li>
+          <li class="nav-item me-xl-3 me-lg-1">
+            <a class="nav-link fs-5" href="#reservation">Reservation</a>
+          </li>
+          <li class="nav-item me-xl-3 me-lg-1">
+            <a class="nav-link fs-5" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item me-xl-3 me-lg-1 dropdown">
+            <a class="nav-link fs-5 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Login
+            </a>
+            <ul style="background-color: var(--primary-color);" class="dropdown-menu border-light text-center">
+              <li><a class="dropdown-item fs-5" href="#">Register</a></li>
+              <li><a class="dropdown-item fs-5" href="#">Login</a></li>
+              <li>
+                <hr class="dropdown-divider border-light" />
+              </li>
+              <li><a class="dropdown-item fs-5" href="#">Logout</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-light" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- NavBar End -->
+
+  <!-- Scroll Spy Start -->
+  <div data-bs-spy="scroll" data-bs-target="#navBar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true"
+    class="scrollspy-example rounded-2" tabindex="0">
+
+    <!-- Home Start -->
+    <header class="header d-flex align-items-center" id="home">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <!-- Home Text -->
+          <div class="hero col-12 col-lg-6 order-2 order-lg-1 text-center mb-5">
+            <h1 class="headerText1 mb-3">Welcome to Rosé & Roast</h1>
+            <p class="mb-4 w-75 m-auto fs-5">
+              Indulge in premium steaks, fine wines, and a warm ambiance for an unforgettable dining experience...
+            </p>
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="btn1">
+                <a class="btn btn-custom-primary rounded-pill fs-5 me-5" href="#reservation">Reserve your spot!</a>
+              </div>
+              <a style="color: var(--primary-color);" class="glightbox headPlay fs-2 me-2"
+                href="https://www.youtube.com/watch?v=32T8Oja5Yn4"><i class="fa-regular fa-circle-play"></i>
+              </a>
+              <span style="color: var(--primary-color);" class="fs-5 fw-bold">WATCH</span>
+            </div>
+          </div>
+          <!-- Home Image -->
+          <div class="col-12 col-lg-6 order-1 order-lg-2 text-center overflow-hidden">
+            <img class="img img-fluid w-auto mt-3" src="./Image/homeImage" alt="homeImage">
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Home End -->
+
+    <!-- Menu  Start -->
+    <section id="menu">
+      <!-- Wine Menu Start -->
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-12 text-center">
+            <h1 class="mb-4">"Top 4 Wines for an Exceptional Experience"</h1>
+            <div class="row">
+              <div class="col-12 col-sm-6 col-md-3">
+                <div class="card">
+                  <img src="./Image/PEN Grange Shz.png" alt="wine_bottle1">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">Grange Shiraz</h3>
+                    <p class="card-text text-center">Dark berries, spice, chocolate, and oak.
+                      <br>
+                      Pairs well with steak and lamb.
+                    </p>
+                    <h5 class="text-center">$750</h5>
+                    <div class="star text-center">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </div>
+                    <div class="btn2"><button>Order Now</button></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3">
+                <div class="card">
+                  <img src="./Image/Caymus.png" alt="wine_bottle2">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">Superblend Shiraz</h3>
+                    <p class="card-text text-center">Blackberries, plums, spice, and oak.
+                      <br>
+                      Pairs well with steak and lamb.
+                    </p>
+                    <h5 class="text-center">$100</h5>
+                    <div class="star text-center">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </div>
+                    <div class="btn2"><button>Order Now</button></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3">
+                <div class="card">
+                  <img src="./Image/wine menu3.png" alt="wine_bottle3">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">St.Henri Shiraz</h3>
+                    <p class="card-text text-center">Dark fruit, spice & chocolate.
+                      <br>
+                      Pairs well with steak and roast lamb.
+                    </p>
+                    <h5 class="text-center">$150</h5>
+                    <div class="star text-center">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </div>
+                    <div class="btn2"><button>Order Now</button></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3">
+                <div class="card">
+                  <img src="./Image/wineImage4.png" alt="wine_bottle4">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">Thiénot x</h3>
+                    <p class="card-text text-center">Toasted brioche, citrus, and honey.
+                      <br>
+                      Caviar, or creamy appetizers.
+                    </p>
+                    <h5 class="text-center">$300</h5>
+                    <div class="star text-center">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </div>
+                    <div class="btn2"><button>Order Now</button></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Wine Menu End -->
+
+      <!-- Banner Start -->
+      <div class="banner1">
+        <div class="bannerContent pt-5 ms-5">
+          <h1>Wine & Steak</h1>
+          <h2>$450 - $1200</h2>
+          <div class="btn2">
+            <button>Order Now</button>
+          </div>
+        </div>
+      </div>
+      <!-- Banner End -->
+
+      <!-- Steak Menu Start -->
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="m-4">"Steak & Culinary"</h1>
+            <div class="row">
+              <div class="col-12 col-sm-6 col-md-3">
+                <div class="card">
+                  <img src="./Image/beef steak.jpg" alt="menu1">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">Sirloin Steak</h3>
+                    <div class="star text-center">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </div>
+                    <div class="btn2"><button>Order Now</button></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3">
+                <div class="card">
+                  <img src="./Image/grilled-steak.webp" alt="menu2">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">Ribeye Steak</h3>
+                    <div class="star text-center">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </div>
+                    <div class="btn2"><button>Order Now</button></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3">
+                <div class="card">
+                  <img src="./Image/salmon.jpg" alt="menu3">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">Salmon Steak</h3>
+                    <div class="star text-center">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </div>
+                    <div class="btn2"><button>Order Now</button></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-md-3">
+                <div class="card">
+                  <img src="./Image/cheese & fruits.jpg" alt="menu4">
+                  <div class="card-body">
+                    <h3 class="card-title text-center">Charcuterie</h3>
+                    <div class="star text-center">
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                      <i class="fa fa-star checked"></i>
+                    </div>
+                    <div class="btn2"><button>Order Now</button></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Steak Menu End -->
+    </section>
+    <!-- Menu End -->
+
+    <!-- About Start -->
+    <section id="about">
+      <div class="container-xxl py-5">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6">
+            <div class="row g-3">
+              <div class="col-6 text-start">
+                <img class="img img-fluid rounded w-100 wow zoomIn" src="./Image/aboutUs1.jpeg" alt="aboutus1">
+              </div>
+              <div class="col-6 text-start">
+                <img class="img img-fluid rounded w-75 wow zoomIn" src="./Image/aboutUs2.jpeg" style="margin-top: 25%;"
+                  alt="aboutus1">
+              </div>
+              <div class="col-6 text-end">
+                <img class="img img-fluid rounded w-75 wow zoomIn" src="./Image/aboutUs3.jpeg" alt="aboutus1">
+              </div>
+              <div class="col-6 text-end">
+                <img class="img img-fluid rounded w-100 wow zoomIn" src="./Image/aboutUs7.jpeg" alt="aboutus1">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="section-title text-start">About Us</h1>
+            <h3 class="mb-4">Welcome To <i style="color: var(--primary-color)" class="fa fa-utensils me-2"></i>Rosé &
+              Roast</h3>
+            <p class="mb-3">At Rose & Roast, we blend cozy minimalism with a passion for fine wines and expertly crafted
+              steaks.</p>
+            <p> In our warm, inviting space, every detail is designed to create a refined yet relaxed dining
+              experience. Join us for unforgettable flavors and comforting elegance.</p>
+            <div class="row g-4 mb-4">
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center border-start border-wine-red border-5 px-3">
+                  <h1 class="flex-shrink-0 display-5 mb-0 text-wine-red">5</h1>
+                  <div class="ps-4">
+                    <p class="mb-0">Years of</p>
+                    <h6 class="text-uppercase mb-0">Enterprise</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center border-start border-wine-red border-5 px-3">
+                  <h1 class="flex-shrink-0 display-5 mb-0 text-wine-red">5</h1>
+                  <div class="ps-4">
+                    <p class="mb-0">Years of</p>
+                    <h6 class="text-uppercase mb-0">Popularity</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn3">
+              <a href="" class="btn btn-custom-primary text-white py-2 px-4 mt-2">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Reservation Start -->
+    <section id="reservation" class="mt-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Contact Title -->
+          <div class="col-12 text-center mb-2">
+            <h1>"Reserve Your Spot</h1>
+          </div>
+          <!-- Contact Details -->
+          <div>
+            <div class="row align-items-center">
+              <!-- Contact Image -->
+              <div class="col-12 col-md-4 my-2 text-center">
+                <img class="img img-fluid w-75" src="./Image/reserve2.svg" alt="contactImage">
+              </div>
+              <!-- Contact Form -->
+              <form class="col-12 col-md-7">
+                <div class="my-3">
+                  <input class="form-control" placeholder="Your Name . . ." type="text">
+                </div>
+                <div class="my-3">
+                  <input class="form-control" placeholder="Your Email . . ." type="email">
+                </div>
+                <div class="my-3">
+                  <input class="form-control" placeholder="Date & Time" type="text">
+                </div>
+                <div class="my-3">
+                  <select class="form-select">
+                    <option selected>No. of People</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+                <div class="my-3">
+                  <textarea class="form-control" placeholder="Special Request . . ." name="" id="" cols="30"
+                    rows="5"></textarea>
+                </div>
+                <div class="btn4 float-end">
+                  <input class="btn btn-custom-primary" placeholder="" type="button" value="Send Email">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Reservation End -->
+
+    <!-- Contact Start -->
+    <section id="contact" class="mt-4">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Contact Title -->
+          <div class="col-12 text-center mb-2">
+            <h1>"Contact Us"</h1>
+          </div>
+          <!-- Contact Details -->
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-5 rounded shadow-sm m-3 contactDiv text-center ">
+              <h4 class="mt-3"><i class="fa-solid contactIcon me-3 fa-map-pin"></i>Address</h4>
+              <h6>No.456, Wine Barrel Road, Savory Town, ST 67890</h6>
+            </div>
+            <div class="col-12 col-md-5 shadow-sm m-3 contactDiv text-center ">
+              <h4 class="mt-3"><i class="fa-solid contactIcon me-3 fa-envelope"></i>Email</h4>
+              <h6>info@roseandroast.com</h6>
+            </div>
+            <div class="col-12 col-md-5 rounded shadow-sm m-3 contactDiv text-center ">
+              <h4 class="mt-3"><i class="fa-solid contactIcon me-3 fa-voicemail"></i>Phone</h4>
+              <h6>(555) 987-6543</h6>
+            </div>
+            <div class="col-12 col-md-5 rounded shadow-sm m-3 contactDiv text-center ">
+              <h4 class="mt-3"><i class="fa-solid contactIcon me-3 fa-clock"></i>Opening Time</h4>
+              <h6>Daily: 5:00PM to 12:00PM</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Conatct End -->
+  </div>
+  <!-- Scroll Spy End -->
+
+  <!-- Footer Start -->
+  <footer>
+    <div class="footerContainer">
+      <div class="socailIcons">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-google"></i></a>
+      </div>
+      <div class="footerText">
+        <h6>© Copy Right <b
+            style="color: var(--primary-color); font-family:'Playfair Display', serif; font-size: larger;">Rosé &
+            Roast</b> All Rights Reserved</h6>
+        <h6>Designed by <i><b
+              style="color: var(--primary-color); font-family: 'Playfair Display', serif; font-size: larger;">M@y</b></i>
+        </h6>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+  <!-- ScrollUp Btn -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-circle-chevron-up"></i></button>
+</body>
+
+<!-- Glightbox JS CDN Link -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js"
+  integrity="sha512-RBWI5Qf647bcVhqbEnRoL4KuUT+Liz+oG5jtF+HP05Oa5088M9G0GxG0uoHR9cyq35VbjahcI+Hd1xwY8E1/Kg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Bootstrap JS CDN Link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- Main JS Link -->
+<script src="main.js"></script>
+
+</html>
