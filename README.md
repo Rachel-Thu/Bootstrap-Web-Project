@@ -1,4 +1,3 @@
-
 # Rosé & Roast — A Unique Culinary Experience Brought to Life
 
 Welcome to Rosé & Roast, a digital canvas where my passion for exquisite wines, perfectly grilled steaks, and elegant design converge into a seamless, intuitive dining experience — crafted 100% from my own creative vision.
