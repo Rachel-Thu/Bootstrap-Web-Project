@@ -1,7 +1,7 @@
 
 # Rosé & Roast — A Unique Culinary Experience Brought to Life
 
-Welcome to Rosé & Roast, a digital canvas where my passion for exquisite wines, perfectly grilled steaks, and elegant design converge into a seamless, intuitive dining experience — crafted 100% from my own creative vision. (Note: The photos used in this project are sourced from the internet to visually enhance the presentation.)
+Welcome to Rosé & Roast, a digital canvas where my passion for exquisite wines, perfectly grilled steaks, and elegant design converge into a seamless, intuitive dining experience — crafted 100% from my own creative vision.
 
 ## 🌐 Live Demo
 🔗 [View it here](https://rachel-thu.github.io/Bootstrap-Web-Project/)
@@ -31,6 +31,13 @@ Welcome to Rosé & Roast, a digital canvas where my passion for exquisite wines,
 This is more than just a restaurant website — it’s a **reflection of my personal design philosophy** that blends minimalist sophistication with immersive UI/UX principles. Every pixel, interaction, and line of code was thoughtfully handcrafted to evoke warmth, elegance, and ease of use.
 
 Whether you're a food lover seeking the perfect steak or an aficionado of fine wines, this site invites you to explore, savor, and connect with Rosé & Roast on a new level.
+
+---
+
+## 📦 Notes
+
+- This is a front-end only project.
+- The photos used in this project are sourced from the internet to visually enhance the presentation.
 
 ---
 
